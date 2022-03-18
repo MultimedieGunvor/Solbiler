@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om os | Solbiler ApS</title>
+    <link rel="stylesheet" href="css/om_os.css">
+</head>
+<body class="wrapper">
+    <section class="hoved_sektion">
+        <div class="sidehoved">
+            <a href="index.html"><h2>Solbiler ApS</h2></a>
+            <div class="login_symbol"><img src="billeder/person-black-18dp.svg" alt="Person symbol">Log ind</div>
+        </div>
+    </section>
+    <section class="billed_sektion">
+        <h1>Kør ud i det blå</h1>
+    </section>
+    <section class="om_solbiler">
+        <h2>Om Solbiler</h2>
+        <p>Solbiler blev grundlagt i 1988, og er et familieejet biludlejningsfirma.<br> 
+            Vi hjælper forretningsfolk, turister og andet godtfolk uden egen bil, med at blive godt kørende.<br>
+            Hos os er der fokus på den personlige service og gensidig respekt, og vi har øje for godt håndværk.<br><br>
+            I skrivende stund har vi 25 biler til rådighed i alle kategorier og prisklasser.<br> 
+            Hos Solbiler tænker vi på miljøet - som et familieforetagende vil vi jo også gerne efterlade noget forsvarligt til de kommende generationer - og vi er i fuld gang med at omstille til vedvarende energikilder.<br><br>
+            2023 bliver året hvor vi føjer 5 nye elbiler til flåden samt en splinterny brintbil!
+        </p>
+    </section>
+    <section class="geolocating">
+        <button id = "find-mig">Besøg os</button><br/>
+        <p id = "status"></p>
+        <a id = "map-link" target="_blank"></a>
+    </section>
+    <div class="videokasse">
+        <video src="video/video.mp4" type="video/mp4" id="video" class="video" width="1024" controls loop onload="playPauseVideo()"></video>
+        Video by Alexander Bobrov from Pexels
+    </div>
+    <section class="kundeomtale">
+        <h2 class="sektion_titel">Det siger vores kunder om os</h2>
+        <div class="slideshow">
+            <button type="button" id="tilbage">Tilbage</button>
+            <img src="/billeder/citat_1.png" alt="Slideshow image" id="slidebillede">
+            <button type="button" id="frem">Frem</button>
+        </div>
+    </section>
+    <section class="ansatte">
+        <h2>Mød holdet</h2>
+        <div>
+            <img src="billeder/Per.jpg" alt="Per">
+            <p>Per Jørgensen.<br><br>
+                Stifter og forretningsoverhoved. Hvad han ikke ved om biler er simpelthen ikke værd at vide.<br>
+                Det er Per, der sørger for at din lejebil er i flot stand,
+                og så er det også ham, der står for aftalerne med vores leverandører.
+            </p>
+        </div>
+        <div>
+            <img src="billeder/Lis.jpg" alt="Lis">
+            <p>Lis Jørgensen.<br><br>
+                Medstifter og talgeni. Alt, hvad der hedder regnskaber, bogføring, indberetning etc, det har hun styr på.<br>
+                Det er også som regel hende, der tager telefonen, når du ringer.
+            </p>
+        </div>
+        <div>
+            <img src="billeder/Grethe.jpg" alt="Grethe">
+            <p>Grethe Højgaard-Riis.<br><br>
+                Står for meget af den daglige drift, og har styr på it-systemet.<br>
+                Hun står for mail-korrespondance, og er vores kommunikationsansvarlige.
+            </p>
+        </div>
+        <div>
+            <img src="billeder/Hans.jpg" alt="Hans">
+            <p>Hans Højgaard-Riis.<br><br>
+                Altmuligmand. Hans klarer vedligehold og servicering, og hjælper kunder, hvor han kan.<br>
+                Hans formår at have mange bolde i luften på samme tid.
+            </p>
+        </div>
+    </section>
+    <div class="til_top">
+        <a href="#" class="til_toppen">Til toppen</a>
+    </div>
+    <section class="billed_sektion_2">
+        <h1>Oplevelserne venter</h1>
+    </section>
+    <footer>
+        <h4 class="adresse">
+            Adresse:<br><br>Solbiler ApS<br>Havkærvænget 22<br>8381 Tilst
+        </h4>
+        <p class="kontakt">
+            <a href="om_os.html">Om os</a><br><br>
+            <a href="tel:+4545454545">45 45 45 45</a><br><br>
+            <a href="mailto:kontakt@solbiler.dk">kontakt@solbiler.dk</a>
+        </p>
+        <p class="åbningstider">
+            Åbningstider<br><br>
+            Mandag - fredag: 8:00 - 15:00<br>
+            Lørdag - søndag: 10:00 - 14:00
+        </p>
+        <p class="telefontider">
+            Telefon<br><br>
+            Mandag - fredag: 8:00 - 16:00<br>
+            Lørdag - søndag: lukket
+        </p>
+    </footer>
+    <script src="js/om_os.js"></script>
+</body>
+</html>

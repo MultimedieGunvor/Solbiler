@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kvittering | Solbiler ApS</title>
+    <link rel="stylesheet" href="css/kunde.css">
+    <link rel="stylesheet" href="css/print.css" media="print">
+    <script src="https://kit.fontawesome.com/6a331c31d1.js"></script>
+</head>
+<body class="wrapper">
+    <section class="hoved_sektion">
+        <div class="sidehoved">
+            <a href="index.html"><h2>Solbiler ApS</h2></a>
+            <div class="login_symbol"><img src="billeder/person-black-18dp.svg" alt="Person symbol">Log ind</div>
+        </div>
+    </section>
+    <div class="billed_sektion"></div>
+    <div class="hovedindhold">
+        <section class="udstyrssektion">
+            <h1 class="overskrift">Vi har registreret din booking med følgende oplysninger</h1>
+            <div class="formular" id="stamopl">
+                <button type="button" id="udskrivKnap" class="videreknap">Udskriv</button>
+            </div>
+        </section>
+        <aside id="lejeoplysninger" class="lejeoplysninger">
+            <h2>Lejeoplysninger</h2>
+            <div id="totalindhold" class="totalindhold">ALT INKLUSIV:</div>
+        </aside>
+    </div>
+    <div class="tillykke">
+        <h2>Tillykke med din booking! Slap af med et stykke musik.</h2>
+    </div>
+    <div class="layout">
+        <i class="fas ikon fa-volume-up fa-10x" id="spil">&nbsp;</i>
+        <i class="fas ikon fa-volume-mute fa-10x" id="mute">&nbsp;</i>
+    </div>
+    <p class="musik_kilde">Musik: Bensound.com</p>
+    <script src="js/kvittering.js"></script>
+</body>
+</html>
