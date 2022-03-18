@@ -1,0 +1,206 @@
+/* Basic CSS reset */
+
+*, :after, :before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+/* You start your css below */
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    /* padding: 0 5px; */
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+}
+
+.hoved_sektion {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.sidehoved {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.sidehoved a{
+    text-decoration: none;
+    color: black;
+}
+.sidehoved h2 {
+    color: #da7c00;
+}
+.login_symbol {
+    display: flex;
+    justify-content: center;
+}
+
+.billed_sektion {
+    background-image: url('../billeder/bil-solnedgang.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+color: #2c72a0b9;
+text-transform: uppercase;
+}
+
+.om_solbiler,
+.ansatte,
+.geolocating {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 15px;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+.om_solbiler h2,
+.ansatte h2 {
+    margin-bottom: 10px;
+}
+.videokasse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-bottom: 100px;
+
+}
+.knaplayout {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.knaplayout button {
+    background-color: #da8d00;
+    color: white; 
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+.knap,
+#frem,
+#tilbage,
+#find-mig {
+    background-color: #da8d00;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 8rem;
+    height: 3rem;
+    padding: 0.5rem;
+    /* border: 1px solid black; */
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 16px;
+    margin: 15px auto;
+}
+.kundeomtale {
+    font-size: 1.2rem;
+    background-image: url('../billeder/biler-solnedgang.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sektion_titel {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.slideshow {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.slideshow img {
+    max-width: 600px;
+    max-height: 600px;
+}
+.ansatte div {
+    display: flex;
+    margin: 10px 0;
+    background-color: #f7f7f7;
+}
+.ansatte div p {
+    padding: 8px;
+}
+.ansatte img {
+    width: 350px;
+    margin-right: 10px;
+}
+#map-link {
+    margin: 0 auto;
+    padding-bottom: 30px;
+    text-decoration: none;
+    color: #2c72a0;
+    font-size: 1.5rem;
+}
+.til_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.til_toppen {
+    text-decoration: none;
+    color: #2c72a0;
+}
+.billed_sektion_2 {
+    background-image: url('../billeder/strand.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.billed_sektion_2 h1 {
+    color: #fff;
+    margin-bottom: 150px;
+}
+footer {
+    background-color: #f5aa1f;
+    font-size: 1rem;
+    /* max-width: 1280px; */
+    margin: 0 auto;
+    padding: 15px;
+    position: static;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.kontakt a {
+    text-decoration: none;
+    /* background-color: white;
+    border: 1px solid black;
+    border-radius: 12px; */
+    padding: 5px;
+    color: black;
+}
